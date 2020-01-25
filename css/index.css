@@ -75,7 +75,7 @@ p {
     display: flex;
 }
 
-header {
+header div {
   margin: 20px auto 30px;
 }
 
@@ -97,8 +97,9 @@ nav a {
     text-decoration: none;
 }
 
-.banner-img {
+.header-img {
   margin-bottom: 20px;
+  display: block;
 }
 
 .top-content {
@@ -213,4 +214,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-top-content {
+  padding: 0 20px 10px;
+  border-bottom: 1px dashed black;
+}
+
+.about-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.about-content-box {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  border-bottom: 1px dashed black;
+}
+
+.about-content-box img, p {
+  margin-bottom: 20px;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 35%;
+  font-size: 16px;
+  padding: 8px;
 }
