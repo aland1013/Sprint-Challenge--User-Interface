@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
+header {
+  width: 90%;
+  margin: 20px auto 20px;
+}
+
+.logo {
+    width: ;
+}
+
+.navbar {
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: flex-end;
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
