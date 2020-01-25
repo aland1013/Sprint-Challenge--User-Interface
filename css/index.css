@@ -139,44 +139,119 @@ nav a {
   justify-content: center;
 }
 
+@keyframes invert-teal {
+  from {background-color: teal;}
+  to {background-color: white;}
+}
+
 .middle-content .boxes .teal {
   background: teal;
+  animation-name: invert-teal;
+  animation-duration: 1s;
+}
+
+@keyframes invert-gold {
+  from {background-color: gold;}
+  to {background-color: white;}
 }
 
 .middle-content .boxes .gold {
   background: gold;
+  animation-name: invert-gold;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes invert-cadetblue {
+  from {background-color: cadetblue;}
+  to {background-color: white;}
 }
 
 .middle-content .boxes .cadetblue {
   background: cadetblue;
+  animation-name: invert-cadetblue;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+@keyframes invert-coral {
+  from {background-color: coral;}
+  to {background-color: white;}
 }
 
 .middle-content .boxes .coral {
   background: coral;
+  animation-name: invert-coral;
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+
+@keyframes invert-crimson {
+  from {background-color: crimson;}
+  to {background-color: white;}
 }
 
 .middle-content .boxes .crimson {
   background: crimson;
+  animation-name: invert-coral;
+  animation-duration: 1s;
+  animation-delay: 4s;
+}
+
+@keyframes invert-forestgreen {
+  from {background-color: forestgreen;}
+  to {background-color: white;}
 }
 
 .middle-content .boxes .forestgreen {
   background: forestgreen;
+  animation-name: invert-forestgreen;
+  animation-duration: 1s;
+  animation-delay: 4s;
 }
 
+@keyframes invert-darkorchid {
+  from {background-color: darkorchid;}
+  to {background-color: white;}
+}
 .middle-content .boxes .darkorchid {
   background: darkorchid;
+  animation-name: invert-darkorchid;
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+
+@keyframes invert-hotpink {
+  from {background-color: hotpink;}
+  to {background-color: white;}
 }
 
 .middle-content .boxes .hotpink {
   background: hotpink;
+  animation-name: invert-hotpink;
+  animation-duration: 1s;
+  animation-delay: 2s;
 } 
 
+@keyframes invert-indigo {
+  from {background-color: indigo;}
+  to {background-color: white;}
+}
 .middle-content .boxes .indigo {
   background: indigo;
+  animation-name: invert-indigo;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 
+@keyframes invert-dodgerblue {
+  from {background-color: dodgerblue;}
+  to {background-color: white;}
+}
 .middle-content .boxes .dodgerblue {
   background: dodgerblue;
+  animation-name: invert-dodgerblue;
+  animation-duration: 1s;
 }
 
 .bottom-content {
