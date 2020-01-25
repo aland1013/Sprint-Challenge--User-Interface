@@ -48,99 +48,301 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
 }
 
 p {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+header div {
+  margin: 20px auto 30px;
+}
+
+.navbar {
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+nav a {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: flex-end;
+  color: black;
+  text-decoration: none;
+}
+
+.header-img {
+  margin-bottom: 20px;
+  display: block;
 }
 
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+  padding: 0 2%;
+  margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 12.5%;
+  height: 100px;
+  background: black;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes invert-teal {
+  from {background-color: teal;}
+  to {background-color: white;}
+}
+
+.middle-content .boxes .teal {
+  background: teal;
+  animation-name: invert-teal;
+  animation-duration: 1s;
+}
+
+@keyframes invert-gold {
+  from {background-color: gold;}
+  to {background-color: white;}
+}
+
+.middle-content .boxes .gold {
+  background: gold;
+  animation-name: invert-gold;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes invert-cadetblue {
+  from {background-color: cadetblue;}
+  to {background-color: white;}
+}
+
+.middle-content .boxes .cadetblue {
+  background: cadetblue;
+  animation-name: invert-cadetblue;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+@keyframes invert-coral {
+  from {background-color: coral;}
+  to {background-color: white;}
+}
+
+.middle-content .boxes .coral {
+  background: coral;
+  animation-name: invert-coral;
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+
+@keyframes invert-crimson {
+  from {background-color: crimson;}
+  to {background-color: white;}
+}
+
+.middle-content .boxes .crimson {
+  background: crimson;
+  animation-name: invert-coral;
+  animation-duration: 1s;
+  animation-delay: 4s;
+}
+
+@keyframes invert-forestgreen {
+  from {background-color: forestgreen;}
+  to {background-color: white;}
+}
+
+.middle-content .boxes .forestgreen {
+  background: forestgreen;
+  animation-name: invert-forestgreen;
+  animation-duration: 1s;
+  animation-delay: 4s;
+}
+
+@keyframes invert-darkorchid {
+  from {background-color: darkorchid;}
+  to {background-color: white;}
+}
+.middle-content .boxes .darkorchid {
+  background: darkorchid;
+  animation-name: invert-darkorchid;
+  animation-duration: 1s;
+  animation-delay: 3s;
+}
+
+@keyframes invert-hotpink {
+  from {background-color: hotpink;}
+  to {background-color: white;}
+}
+
+.middle-content .boxes .hotpink {
+  background: hotpink;
+  animation-name: invert-hotpink;
+  animation-duration: 1s;
+  animation-delay: 2s;
+} 
+
+@keyframes invert-indigo {
+  from {background-color: indigo;}
+  to {background-color: white;}
+}
+.middle-content .boxes .indigo {
+  background: indigo;
+  animation-name: invert-indigo;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes invert-dodgerblue {
+  from {background-color: dodgerblue;}
+  to {background-color: white;}
+}
+.middle-content .boxes .dodgerblue {
+  background: dodgerblue;
+  animation-name: invert-dodgerblue;
+  animation-duration: 1s;
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+  padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 footer {
-    width: 100%;
-    background: black;
+  width: 100%;
+  background: black;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.about-top-content {
+  padding: 0 20px 10px;
+  border-bottom: 1px dashed black;
+}
+
+.about-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.about-content-box {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  border-bottom: 1px dashed black;
+}
+
+.about-content-box img, p {
+  margin-bottom: 20px;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 35%;
+  font-size: 16px;
+  padding: 8px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.about-bottom-content {
+  margin: 40px 20px;
 }
